@@ -7,15 +7,11 @@
 </head>
 <body>
 	<?php 
-		$a ="1";
-		$b ="5";
-		$kq = "-$b/$a";
-		echo "Phương trình: ".$a."x + ".$b." = 0"."<br/>";
-		if($a!=0){
-			echo "x= ".$kq;
-		}else {
-			echo "Nhập lại a(a!=0)";
+		$tongchan = 0;
+		for ($i=0; $i < 10 ; $i++) { 
+			$tongchan += $i*2;
 		}
+		echo "Tổng 10 số chẵn đầu tiên là: ".$tongchan;
 	 ?>
 </body>
 </html>
